@@ -51,7 +51,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Portfolio of Gopinath C — Full Stack Developer building scalable, AI-powered web apps.",
+          "Full Stack Developer • Java Programmer • React Developer • AI Enthusiast. Explore projects, internships, certifications, and skills.",
       },
       { property: "og:url", content: "/" },
     ],

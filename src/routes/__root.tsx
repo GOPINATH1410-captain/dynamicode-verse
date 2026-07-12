@@ -69,7 +69,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Portfolio of Gopinath C — Full Stack Developer, Java Programmer, React Developer, and AI Enthusiast. Projects, internships, certifications and skills.",
+          "Full Stack Developer • Java Programmer • React Developer • AI Enthusiast. Explore projects, internships, certifications, and skills.",
       },
       {
         name: "keywords",
@@ -82,10 +82,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         property: "og:description",
         content:
-          "Full Stack Developer • Java Programmer • React Developer • AI Enthusiast.",
+          "Full Stack Developer • Java Programmer • React Developer • AI Enthusiast. Explore projects, internships, certifications, and skills.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Gopinath C | Full Stack Developer Portfolio" },
+      { name: "twitter:description", content: "Full Stack Developer • Java Programmer • React Developer • AI Enthusiast. Explore projects, internships, certifications, and skills." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f9a25403-fca1-49eb-838a-115198dedf34/id-preview-8e215ebf--f879fd65-7e61-4ae6-8288-51c406143430.lovable.app-1783848334757.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f9a25403-fca1-49eb-838a-115198dedf34/id-preview-8e215ebf--f879fd65-7e61-4ae6-8288-51c406143430.lovable.app-1783848334757.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
