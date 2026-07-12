@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
-import { motion, useScroll, useSpring, useTransform, AnimatePresence } from "framer-motion";
+import { motion, useScroll, useSpring, AnimatePresence } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import CountUp from "react-countup";
 import {
